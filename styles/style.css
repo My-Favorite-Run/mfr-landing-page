@@ -42,6 +42,11 @@ button:hover {
   font-weight: 600;
 }
 
+.secondsubtitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .description {
   font-size: 24px;
   font-weight: normal;
