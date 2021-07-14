@@ -1,1 +1,45 @@
+* {
+  font-family: "Poppins" !important;
+}
 
+/*Overflow-y and Display changes allows user to scroll without seeing the scrollbar on the side*/
+body {
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  position: absolute !important;
+  width: 406px !important;
+  height: 88px !important;
+
+  border: 5px solid #ff7590 !important;
+  box-sizing: border-box !important;
+  border-radius: 30px !important;
+
+  color: #ff7590 !important;
+  font-size: 36px !important;
+}
+
+button:hover {
+  color: white !important;
+  background-color: #ff7590 !important;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.secondheader {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 600;
+}
