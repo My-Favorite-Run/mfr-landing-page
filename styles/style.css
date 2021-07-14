@@ -6,13 +6,11 @@
 body {
   overflow-y: scroll;
 }
-
 body::-webkit-scrollbar {
   display: none;
 }
 
 button {
-  position: absolute !important;
   width: 406px !important;
   height: 88px !important;
 
@@ -42,4 +40,9 @@ button:hover {
 .subtitle {
   font-size: 30px;
   font-weight: 600;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: normal;
 }
