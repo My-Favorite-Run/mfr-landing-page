@@ -285,8 +285,10 @@
           </div>
           <div class="col-6 d-flex justify-content-center">
             <div class="row align-items-center">
+              <!--Added for spacing-->
+              <div class="col-1"></div>
               <div
-                class="col-12 d-flex justify-content-center"
+                class="col-11 d-flex justify-content-center"
                 style="padding-bottom: 10%"
               >
                 <button
@@ -299,9 +301,22 @@
               </div>
               <div class="col-12 d-flex justify-content-center">
                 <img src="/assets/logo.svg" width="175px" height="45px" />
-                <img src="/assets/Fb.svg" style="padding-right: 6%" />
-                <img src="/assets/Ig.svg" style="padding-right: 6%" />
-                <img src="/assets/LinkedIn.svg" />
+                <img
+                  class="clickable"
+                  src="/assets/Fb.svg"
+                  style="padding-right: 6%"
+                />
+                <img
+                  class="clickable"
+                  src="/assets/Ig.svg"
+                  style="padding-right: 6%"
+                  onclick="window.open('https://www.instagram.com/myfavoriterun/?hl=en','_blank')"
+                />
+                <img
+                  class="clickable"
+                  src="/assets/LinkedIn.svg"
+                  onclick="window.open('https://www.linkedin.com/company/my-favorite-run/','_blank')"
+                />
               </div>
             </div>
           </div>
