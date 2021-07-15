@@ -62,3 +62,7 @@ button:hover {
   margin-left: 6%;
   margin-right: 6%;
 }
+
+.clickable:hover {
+  cursor: pointer;
+}
