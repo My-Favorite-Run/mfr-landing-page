@@ -53,16 +53,42 @@ button:hover {
 }
 
 .testimonial {
-  background-color: #e2e2e2;
-  border-radius: 20px;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
   margin-left: 6%;
   margin-right: 6%;
+  border-width: 5px;
+
+  background: radial-gradient(
+    164.54% 164.54% at -5.91% -18.72%,
+    #ffffff 0%,
+    rgba(226, 226, 226, 0) 100%
+  );
+  border: 3px solid #ffffff;
+  border-radius: 20px;
 }
 
 .clickable:hover {
   cursor: pointer;
+}
+
+.nav-header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 20px;
+}
+
+.duo-color {
+  background: linear-gradient(
+    #d9edf3 0%,
+    #d9edf3 50%,
+    #f4f1ed 50%,
+    #f4f1ed 100%
+  );
+}
+
+.duo-color-gradient {
+  background: linear-gradient(#d9edf3, #f4f1ed);
 }
