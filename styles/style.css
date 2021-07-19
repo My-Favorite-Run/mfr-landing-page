@@ -11,26 +11,26 @@ body::-webkit-scrollbar {
 }
 
 button {
-  border: 5px solid #ff5757 !important;
+  border: 5px solid #ff676f !important;
   border-radius: 30px !important;
-  color: #ff5757 !important;
+  color: #ff676f !important;
 }
 
 .button-prim {
   width: fit-content;
   height: 88px !important;
 
-  border: 5px solid #ff5757 !important;
+  border: 5px solid #ff676f !important;
   box-sizing: border-box !important;
   border-radius: 30px !important;
 
-  color: #ff5757 !important;
+  color: #ff676f !important;
   font-size: 36px !important;
 }
 
 button:hover {
   color: white !important;
-  background-color: #ff5757 !important;
+  background-color: #ff676f !important;
 }
 
 .header {
@@ -107,21 +107,21 @@ button:hover {
 }
 
 .nav-link:hover {
-  color: #ff5757;
+  color: #ff676f;
 }
 
 .active {
-  color: #ff5757;
+  color: #ff676f;
 }
 
 .nav-button {
   width: 140px !important;
   height: 35px !important;
 
-  border: 2px solid #ff5757 !important;
+  border: 2px solid #ff676f !important;
   border-radius: 30px !important;
 
-  color: #ff5757 !important;
+  color: #ff676f !important;
   font-size: 20px !important;
 }
 
