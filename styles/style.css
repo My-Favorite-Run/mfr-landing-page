@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 
 button {
   border: 5px solid #ff676f !important;
-  border-radius: 30px !important;
+  /*border-radius: 30px !important;*/
   color: #ff676f !important;
 }
 
@@ -133,6 +133,36 @@ button:hover {
   border-width: 5px;
 
   background: white;
-  border: 3px solidw hite;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+.pricing_box {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-width: 5px;
+  box-shadow: 5px 5px rgb(104, 104, 104);
+  border-radius: 20px;
+}
+
+.pricing_box:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px rgb(54, 54, 54);
+}
+
+.features {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  border-width: 5px;
+  background: radial-gradient(
+    164.54% 164.54% at -5.91% -18.72%,
+    #ffffff 0%,
+    rgba(226, 226, 226, 0) 100%
+  );
+  border: 3px solid white;
   border-radius: 20px;
 }
